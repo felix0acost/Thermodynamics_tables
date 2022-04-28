@@ -1,3 +1,65 @@
+menus ={
+    'menu1':"""
+        Bienvenido al interpolador de tablas termodinámicas
+
+        Elige que sustancia quieres interpolar
+
+            1. agua
+
+            2. 134-a
+
+            3. amonio
+        """,
+
+    'menu2':"""
+        Elige la fase de la sustancia
+
+            1. líquido comprimido
+
+            2. fase saturada
+
+            3. vapor sobrecalentado
+        """,
+    
+    'menu3':"""
+        Elige la propiedad a interpolar
+
+            1. presión de saturación
+
+            2. volumen de líquido saturado(vf)
+
+            3. volumen de vapor saturado(vg)
+
+            4. energía interna de líquido saturado(uf)
+
+            5. energía interna de evaporación (ufg)
+
+            6. energía interna de vapor saturado(ug)
+
+            7. entalpía de líquido saturado(hf)
+
+            8. entalpía de evaporación (hfg)
+
+            9. entalpía de vapor saturado(hg)
+
+            10. entropía de líquido saturado(sf)
+
+            11. entropía de evaporación(sfg)
+
+            12. entropía de vapor saturado(sg)
+
+            13. temperatura
+        """,
+}
+
+
+
+
+
+
+
+
+
 Saturate_water_temperature_table = (
     {
         'temp': 0.01,
@@ -1141,5 +1203,5 @@ Saturate_water_temperature_table = (
     },    
 )
 Saturate_water_pressure_table = (
-
+    
 )
