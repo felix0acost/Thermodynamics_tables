@@ -1,3 +1,4 @@
 tablas_termodinamicas/
 venv/
 __pycache__/
+convertidor.py 
